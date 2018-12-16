@@ -24,8 +24,11 @@ y = dataset.iloc[:,2].values
 
 #fittting the linear regression to the dataset
 
-from sklearn.linear_model import LinearRegression
+"""from sklearn.linear_model import LinearRegression
 
 lin_reg = LinearRegression()
-lin_reg.fit(X,y)
+lin_reg.fit(X,y) """
 
+
+from sklearn.linear_model import LinearRegression
+lin_reg = Linear
